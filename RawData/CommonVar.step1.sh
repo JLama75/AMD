@@ -3,7 +3,7 @@
 #SBATCH --mem=5G --nodes=1 --cpus-per-task=12       # Job memory request
 #SBATCH --time=0-01:00:00
 #SBATCH --output=Variants_common_%j.log   # Standard output and error log
-#SBATCH --partition=long,normal,bigmem
+#SBATCH --partition=long,normal,short
 
 #module load bcftools
 #Output Files:
